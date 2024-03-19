@@ -1,18 +1,15 @@
 import React from 'react'
+import '../NavBar/NavBar.css'
 
 export const NavBar = () => {
     return (
-        <div className='NavContainer'>
-            <nav className='Nav'>                
-                <ul className='navLista'>
-                <div className='NavImg'>
-                    <imag href='/src/assets/Biblioteca.jpeg'></imag>
-                </div>
-                    <li><a className='navEnlace' href='/Registrar.html'>Registrar</a></li>
-                    <li><a className='navEnlace' href='/Ingresar.html'>Ingresar</a></li>
-                </ul>
-            </nav>
+        <nav className='NavContainer'>
+        <div>
+        <img className='NavImg' src="./assets/Biblioteca.jpg"></img>
         </div>
+            <p className='navLista'><a className='navEnlace' href='/Registrar.html'>Registrar</a></p>
+            <p className='navLista'><a className='navEnlace' href='/Ingresar.html'>Ingresar</a></p>
+        </nav>
     );
 }
 export default NavBar;
