@@ -9,28 +9,31 @@
     justify-content: space-between;
     cursor: none;
 }
-.NavImg{
+
+.NavImg {
     width: 100%;
     height: 80%;
-    margin: 10px;
+    margin: 5px;
     border: 0;
-    border-radius: 1em 1em 1em 1em;    
-}
-.navLista {
-    margin-left: 2em;
-    margin-right: 2em;
-    flex-direction: row;
-    border: 2px solid black;
     border-radius: 10px;
-    background-color: rgba(0, 0, 255, 0.566);
-    padding: 2%;
-    cursor: none;
+    justify-content: left;
+}
+
+.navLista {
+    justify-content: right;
 }
 
 .navEnlace {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.566);
+    padding: 5px;
+    cursor: none;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-size: 10px;
-    justify-content: space-between;
+    font-size: 15px;
     text-decoration: none;
 }

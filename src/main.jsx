@@ -9,3 +9,8 @@ ReactDOM.createRoot(document.getElementById('nav')).render(
       <NavBar />
   </React.StrictMode>,
 )
+ReactDOM.createRoot(document.getElementById('footer')).render(
+  <React.StrictMode>
+      <Footer />
+  </React.StrictMode>,
+)
